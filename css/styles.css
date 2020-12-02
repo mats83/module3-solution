@@ -1,0 +1,82 @@
+body {
+	font-size: 16px;
+	background-color: #E7E7E7;
+	font-family: 'Handlee', cursive;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #CACACA;
+	border-radius: 0;
+	border: 1px;
+	color: black;
+}
+
+.navbar-brand p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #E7E7E7;
+}
+
+/* END HEADER */
+
+/* Menu  */
+
+.box {
+	
+	position: relative;
+	float: left;
+}
+
+.box > div > article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 10px;
+	color: black;
+}
+
+#menu {
+	margin-bottom: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  font-weight: bold;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+/* End Menu */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
